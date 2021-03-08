@@ -20,7 +20,7 @@ public class InsurantDataMap {
     public  Elements skydiving = new Elements(ByValue.XPATH, "//*[@id=\"insurance-form\"]/div/section[2]/div[10]/p/label[4]/span");
     public  Elements other = new Elements(ByValue.XPATH, "//*[@id=\"insurance-form\"]/div/section[2]/div[10]/p/label[5]/span");
     public  Elements website = new Elements(ByValue.ID, "website");
-    public  Elements openButton = new Elements(ByValue.ID, "open");
+    public  Elements openButton = new Elements(ByValue.ID, "picturecontainer");
     public  Elements nextProductData = new Elements(ByValue.ID, "nextenterproductdata");
     public  Elements previousVehicleData = new Elements(ByValue.ID, "preventervehicledata");
     public  Elements nextPriceData = new Elements(ByValue.ID, "nextselectpriceoption");

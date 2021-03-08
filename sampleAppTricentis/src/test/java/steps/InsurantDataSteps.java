@@ -81,7 +81,8 @@ public class InsurantDataSteps {
 
     @When("user upload a picture")
     public void user_upload_a_picture() {
-       insurantDataMap.openButton.sendKeys("picture/TEG.pdf");
+        String path = Thread.currentThread().getContextClassLoader().getResource("picture/example.jpg").getPath();
+       insurantDataMap.openButton.sendKeys(path);
     }
 
     @Then("user clicks on Next")
